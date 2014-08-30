@@ -1,0 +1,118 @@
+[2014-08-30 15:01:53 +0800] [5085] [INFO] Starting gunicorn 19.1.1
+[2014-08-30 15:01:53 +0800] [5085] [INFO] Listening at: http://0.0.0.0:6543 (5085)
+[2014-08-30 15:01:53 +0800] [5085] [INFO] Using worker: sync
+[2014-08-30 15:01:53 +0800] [5090] [INFO] Booting worker with pid: 5090
+[2014-08-30 15:03:05 +0800] [5085] [INFO] Handling signal: term
+[2014-08-30 15:03:05 +0800] [5090] [INFO] Worker exiting (pid: 5090)
+[2014-08-30 15:03:05 +0800] [5085] [INFO] Shutting down: Master
+[2014-08-30 15:24:16 +0800] [586] [INFO] Starting gunicorn 19.1.1
+[2014-08-30 15:24:16 +0800] [586] [INFO] Listening at: http://0.0.0.0:8002 (586)
+[2014-08-30 15:24:16 +0800] [586] [INFO] Using worker: sync
+[2014-08-30 15:24:16 +0800] [591] [INFO] Booting worker with pid: 591
+[2014-08-30 15:24:52 +0800] [586] [INFO] Handling signal: term
+[2014-08-30 15:24:52 +0800] [591] [INFO] Worker exiting (pid: 591)
+[2014-08-30 15:24:52 +0800] [586] [INFO] Shutting down: Master
+[2014-08-30 15:25:57 +0800] [628] [INFO] Starting gunicorn 19.1.1
+[2014-08-30 15:25:57 +0800] [628] [INFO] Listening at: http://127.0.0.1:8000 (628)
+[2014-08-30 15:25:57 +0800] [628] [INFO] Using worker: sync
+[2014-08-30 15:25:57 +0800] [635] [INFO] Booting worker with pid: 635
+[2014-08-30 15:25:57 +0800] [635] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/Users/hcm_apple/bmwenv/lib/python2.7/site-packages/gunicorn-19.1.1-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/Users/hcm_apple/bmwenv/lib/python2.7/site-packages/gunicorn-19.1.1-py2.7.egg/gunicorn/workers/base.py", line 114, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/hcm_apple/bmwenv/lib/python2.7/site-packages/gunicorn-19.1.1-py2.7.egg/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/Users/hcm_apple/bmwenv/lib/python2.7/site-packages/gunicorn-19.1.1-py2.7.egg/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/Users/hcm_apple/bmwenv/lib/python2.7/site-packages/gunicorn-19.1.1-py2.7.egg/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/hcm_apple/bmwenv/lib/python2.7/site-packages/gunicorn-19.1.1-py2.7.egg/gunicorn/util.py", line 356, in import_app
+    __import__(module)
+ImportError: No module named development.ini
+Traceback (most recent call last):
+  File "/Users/hcm_apple/bmwenv/lib/python2.7/site-packages/gunicorn-19.1.1-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/Users/hcm_apple/bmwenv/lib/python2.7/site-packages/gunicorn-19.1.1-py2.7.egg/gunicorn/workers/base.py", line 114, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/Users/hcm_apple/bmwenv/lib/python2.7/site-packages/gunicorn-19.1.1-py2.7.egg/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/Users/hcm_apple/bmwenv/lib/python2.7/site-packages/gunicorn-19.1.1-py2.7.egg/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/Users/hcm_apple/bmwenv/lib/python2.7/site-packages/gunicorn-19.1.1-py2.7.egg/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/hcm_apple/bmwenv/lib/python2.7/site-packages/gunicorn-19.1.1-py2.7.egg/gunicorn/util.py", line 356, in import_app
+    __import__(module)
+ImportError: No module named development.ini
+[2014-08-30 15:25:57 +0800] [635] [INFO] Worker exiting (pid: 635)
+[2014-08-30 15:28:16 +0800] [690] [INFO] Starting gunicorn 19.1.1
+[2014-08-30 15:28:16 +0800] [690] [INFO] Listening at: http://0.0.0.0:8002 (690)
+[2014-08-30 15:28:16 +0800] [690] [INFO] Using worker: sync
+[2014-08-30 15:28:16 +0800] [693] [INFO] Booting worker with pid: 693
+[2014-08-30 15:28:25 +0800] [693] [INFO] Worker exiting (pid: 693)
+[2014-08-30 15:28:25 +0800] [690] [INFO] Handling signal: int
+[2014-08-30 15:28:25 +0800] [690] [INFO] Shutting down: Master
+[2014-08-30 15:29:20 +0800] [715] [INFO] Starting gunicorn 19.1.1
+[2014-08-30 15:29:20 +0800] [715] [INFO] Listening at: http://0.0.0.0:8002 (715)
+[2014-08-30 15:29:20 +0800] [715] [INFO] Using worker: sync
+[2014-08-30 15:29:20 +0800] [718] [INFO] Booting worker with pid: 718
+[2014-08-30 15:30:12 +0800] [718] [INFO] Worker exiting (pid: 718)
+[2014-08-30 15:30:12 +0800] [715] [INFO] Handling signal: int
+[2014-08-30 15:30:12 +0800] [715] [INFO] Shutting down: Master
+[2014-08-30 15:36:17 +0800] [825] [INFO] Starting gunicorn 19.1.1
+[2014-08-30 15:36:17 +0800] [825] [INFO] Listening at: http://0.0.0.0:8002 (825)
+[2014-08-30 15:36:17 +0800] [825] [INFO] Using worker: sync
+[2014-08-30 15:36:17 +0800] [828] [INFO] Booting worker with pid: 828
+[2014-08-30 15:36:25 +0800] [828] [INFO] Worker exiting (pid: 828)
+[2014-08-30 15:36:25 +0800] [825] [INFO] Handling signal: int
+[2014-08-30 15:36:25 +0800] [825] [INFO] Shutting down: Master
+[2014-08-30 15:36:52 +0800] [842] [INFO] Starting gunicorn 19.1.1
+[2014-08-30 15:36:52 +0800] [842] [INFO] Listening at: http://0.0.0.0:8002 (842)
+[2014-08-30 15:36:52 +0800] [842] [INFO] Using worker: sync
+[2014-08-30 15:36:52 +0800] [845] [INFO] Booting worker with pid: 845
+[2014-08-30 15:37:13 +0800] [845] [INFO] Worker exiting (pid: 845)
+[2014-08-30 15:37:13 +0800] [842] [INFO] Handling signal: int
+[2014-08-30 15:37:13 +0800] [842] [INFO] Shutting down: Master
+[2014-08-30 16:02:02 +0800] [1105] [INFO] Starting gunicorn 19.1.1
+[2014-08-30 16:02:02 +0800] [1105] [INFO] Listening at: http://0.0.0.0:8002 (1105)
+[2014-08-30 16:02:02 +0800] [1105] [INFO] Using worker: sync
+[2014-08-30 16:02:02 +0800] [1108] [INFO] Booting worker with pid: 1108
+[2014-08-30 16:08:48 +0800] [1108] [INFO] Worker exiting (pid: 1108)
+[2014-08-30 16:08:48 +0800] [1105] [INFO] Handling signal: int
+[2014-08-30 16:08:48 +0800] [1105] [INFO] Shutting down: Master
+[2014-08-30 16:09:25 +0800] [1181] [INFO] Starting gunicorn 19.1.1
+[2014-08-30 16:09:25 +0800] [1181] [INFO] Listening at: http://0.0.0.0:8002 (1181)
+[2014-08-30 16:09:25 +0800] [1181] [INFO] Using worker: sync
+[2014-08-30 16:09:25 +0800] [1186] [INFO] Booting worker with pid: 1186
+[2014-08-30 16:09:36 +0800] [1181] [INFO] Handling signal: term
+[2014-08-30 16:09:36 +0800] [1186] [INFO] Worker exiting (pid: 1186)
+[2014-08-30 16:09:36 +0800] [1181] [INFO] Shutting down: Master
+[2014-08-30 16:23:06 +0800] [1388] [INFO] Starting gunicorn 19.1.1
+[2014-08-30 16:23:06 +0800] [1388] [INFO] Listening at: http://0.0.0.0:8002 (1388)
+[2014-08-30 16:23:06 +0800] [1388] [INFO] Using worker: sync
+[2014-08-30 16:23:06 +0800] [1393] [INFO] Booting worker with pid: 1393
+[2014-08-30 16:23:41 +0800] [1388] [INFO] Handling signal: term
+[2014-08-30 16:23:41 +0800] [1393] [INFO] Worker exiting (pid: 1393)
+[2014-08-30 16:23:41 +0800] [1388] [INFO] Shutting down: Master
+[2014-08-30 16:24:04 +0800] [1415] [INFO] Starting gunicorn 19.1.1
+[2014-08-30 16:24:04 +0800] [1415] [INFO] Listening at: http://0.0.0.0:8002 (1415)
+[2014-08-30 16:24:04 +0800] [1415] [INFO] Using worker: sync
+[2014-08-30 16:24:04 +0800] [1420] [INFO] Booting worker with pid: 1420
+[2014-08-30 16:28:25 +0800] [1415] [INFO] Handling signal: term
+[2014-08-30 16:28:25 +0800] [1420] [INFO] Worker exiting (pid: 1420)
+[2014-08-30 16:28:25 +0800] [1415] [INFO] Shutting down: Master
+[2014-08-30 16:42:18 +0800] [1700] [INFO] Starting gunicorn 19.1.1
+[2014-08-30 16:42:18 +0800] [1700] [INFO] Listening at: http://0.0.0.0:8002 (1700)
+[2014-08-30 16:42:18 +0800] [1700] [INFO] Using worker: sync
+[2014-08-30 16:42:18 +0800] [1707] [INFO] Booting worker with pid: 1707
+[2014-08-30 16:43:34 +0800] [1700] [INFO] Handling signal: term
+[2014-08-30 16:43:34 +0800] [1707] [INFO] Worker exiting (pid: 1707)
+[2014-08-30 16:43:34 +0800] [1700] [INFO] Shutting down: Master
+[2014-08-30 16:44:32 +0800] [1765] [INFO] Starting gunicorn 19.1.1
+[2014-08-30 16:44:32 +0800] [1765] [INFO] Listening at: http://0.0.0.0:8002 (1765)
+[2014-08-30 16:44:32 +0800] [1765] [INFO] Using worker: sync
+[2014-08-30 16:44:32 +0800] [1770] [INFO] Booting worker with pid: 1770
+[2014-08-30 16:48:30 +0800] [1765] [INFO] Handling signal: term
+[2014-08-30 16:48:30 +0800] [1770] [INFO] Worker exiting (pid: 1770)
+[2014-08-30 16:48:30 +0800] [1765] [INFO] Shutting down: Master
