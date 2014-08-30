@@ -36,6 +36,7 @@ requires = [
     'matplotlib',
     'gunicorn',
     'Paste',
+    'requests'
     ]
 
 setup(name='bmwcrm',

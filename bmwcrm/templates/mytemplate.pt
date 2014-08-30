@@ -8,13 +8,13 @@
     <meta name="author" content="Pylons Project">
     <link rel="shortcut icon" href="${request.static_url('bmwcrm:static/pyramid-16x16.png')}">
 
-    <title>Starter Scaffold for The Pyramid Web Framework</title>
+    <title>BMW CRM DEMO</title>
 
   </head>
 
   <body>
 
-      Pyramid
+      Pyramid BMW CRM 
 
   </body>
 </html>
